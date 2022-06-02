@@ -3,15 +3,6 @@ body {
     color: #212121;
 }
 
-.logo {
-    color: #212121;
-    text-decoration: none;
-}
-
-.logo-accent {
-    color: #2196F3;
-}
-
 /* Колір основного тексту #212121 */
 
 /* Колір підписів #757575 */
@@ -19,3 +10,97 @@ body {
 /* Колір акценту #2196F3 */
 
 /* Колір адреси #FFFFFF */
+
+
+/* прибрані крапки в списках */
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: #212121;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.logo-accent {
+    color: #2196F3;
+}
+
+.site-nav{
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav:hover,
+.site-nav:focus{
+    color: #2196F3;
+}
+
+.mail,
+.telephone {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.mail:hover,
+.mail:focus,
+.telephone:hover,
+.telephone:focus{
+    color: #2196F3;
+}
+
+.order-window{
+    background-color: #2F303A;
+}
+.order-button{
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+.order-service{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+}
+
+.title{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+
+
+
+
+.footer{
+    background-color: #2F303A;
+}
+
+.logo-footer{
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+}
