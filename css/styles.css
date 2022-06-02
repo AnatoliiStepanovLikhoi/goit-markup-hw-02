@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
+    background-color: #FFFFFF;
 }
 
 /* Колір основного тексту #212121 */
@@ -16,6 +17,11 @@ body {
 .list {
     list-style: none;
 }
+
+/* header */
+/* .header{
+    background-color: #FFFFFF;
+} */
 
 .logo {
     color: #212121;
@@ -60,6 +66,8 @@ body {
     color: #2196F3;
 }
 
+/* order section */
+
 .order-window{
     background-color: #2F303A;
 }
@@ -89,9 +97,20 @@ body {
         color: #FFFFFF;
 }
 
+/* benefits list */
+/* .benefits{
+    background-color: #E5E5E5;
+} */
 
+/* Our work */
 
+/* Our team */
 
+.team{
+    background-color: #F5F4FA;
+}
+
+/* footer */
 .footer{
     background-color: #2F303A;
 }
