@@ -68,7 +68,9 @@ body {
 .mail:hover,
 .mail:focus,
 .telephone:hover,
-.telephone:focus{
+.telephone:focus,
+.link-footer:hover,
+.link-footer:focus{
     color: #2196F3;
 }
 
