@@ -56,6 +56,10 @@ body {
     text-decoration: none;
 }
 
+.list .site-nav.current {
+    color: var(--accent-text-color);
+}
+
 .site-nav:hover,
 .site-nav:focus{
     color: #2196F3;
