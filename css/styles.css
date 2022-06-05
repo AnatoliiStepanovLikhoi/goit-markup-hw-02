@@ -6,8 +6,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--primary-text-color);
     background-color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 /* Колір основного тексту #212121 */
@@ -35,7 +37,7 @@ body {
 } */
 
 .logo {
-    color: #212121;
+    color: var(--primary-text-color);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -44,13 +46,12 @@ body {
 }
 
 .logo-accent {
-    color: #2196F3;
+    color: var(--accent-text-color);
 }
 
 .site-nav{
-    color: #212121;
+    color: var(--primary-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -63,14 +64,13 @@ body {
 
 .site-nav:hover,
 .site-nav:focus{
-    color: #2196F3;
+    color: var(--accent-text-color);
 }
 
 .mail,
 .telephone {
-    color: #757575;
+    color: var(--description-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -82,7 +82,7 @@ body {
 .telephone:focus,
 .link-footer:hover,
 .link-footer:focus{
-    color: #2196F3;
+    color:var(--accent-text-color);
 }
 
 /* order section */
@@ -91,7 +91,7 @@ body {
     background-color: #2F303A;
 }
 .order-button{
-        background: #2196F3;
+        background: var(--accent-text-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         font-family: inherit;
@@ -125,17 +125,13 @@ body {
 
 .benefit-title{
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .benefit-description{
-        font-size: 14px;
         line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--description-text-color);
 }
 
 /* Our work */
@@ -145,7 +141,6 @@ body {
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
-        letter-spacing: 0.03em;
 }
 
 /* Our team */
@@ -155,7 +150,6 @@ body {
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
-        letter-spacing: 0.03em;
 }
 
 .team{
@@ -170,7 +164,6 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .position{
@@ -178,8 +171,7 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--description-text-color);
 }
 
 /* portfolio main */
@@ -193,7 +185,6 @@ body {
         font-size: 16px;
         line-height: 1.63;
         text-align: center;
-        letter-spacing: 0.03em;
         border: none;
         cursor: pointer;
         font-family: inherit;
@@ -205,14 +196,18 @@ body {
         font-size: 16px;
         line-height: 1.63;
         text-align: center;
-        letter-spacing: 0.03em;
         color: #FFFFFF;
-        background: #2196F3;
+        background: var(--accent-text-color);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 4px;
 }
 
 /* projects */
+
+.project-link{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
 
 .project-title{
         font-weight: 700;
@@ -224,8 +219,7 @@ body {
 .project-description{
         font-size: 16px;
         line-height: 1.88;
-        letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--description-text-color);
 }
 
 /* footer */
@@ -242,17 +236,13 @@ body {
         line-height: 1.19;
 }
 .address-footer{
-        font-size: 14px;
         line-height: 1.19;
-        letter-spacing: 0.03em;
         color: #FFFFFF;
         font-style: normal;
         text-decoration: none;
 }
 .link-footer{
-        font-size: 14px;
         line-height: 1.71;
-        letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         font-style: normal;
         text-decoration: none;
